@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 5</title>
+</head>
+
+<body>
+
+    <h1>3. Crie um sistema de pontuação para um jogo </h1>
+    <p> Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente
+        novamente para ganhar.".</p>
+
+    <pre>
+        <code>
+            score1 = prompt("pontos da partida 1")
+            score2 = prompt("pontos da partida 2")
+            score3 = prompt("pontos da partida 3")
+
+            totalScore = Number(score1) + Number(score2) + Number(score3)
+
+            if (totalScore >= 100) {
+                alert(`${totalScore} pontos. Parabéns, você venceu!`)
+            } else {
+                alert(`${totalScore}, Tente Novamente`)
+            }
+        </code>
+    </pre>
+
+</body>
+<script src="app.js"></script>
+
+</html>

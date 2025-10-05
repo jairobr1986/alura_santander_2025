@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 5</title>
+</head>
+
+<body>
+
+    <h1>
+        4. Crie uma mensagem que informa o usuário sobre o saldo
+        da conta, usando uma template string para incluir o valor
+        do saldo.
+    </h1>
+
+    <pre>
+        <code>
+            let saldo = 7000;
+            Number(saldo);
+            let saque = prompt("Quanto você irá sacar?");
+            Number(saque);
+            if (saldo < saque){
+                alert("Saque não é possivel, revise o valor da sua conta")
+                alert("Valor excede o seu saldo")
+            } else if ( saldo >= saque) {
+                saldo = saldo - saque
+            alert(`O seu saldo atual é ${saldo}`)
+            } else if (isNaN(saque)) {
+                alert("Digite um valor valido.")
+            }
+        </code>
+    </pre>
+
+</body>
+<script src="app.js"></script>
+
+</html>
