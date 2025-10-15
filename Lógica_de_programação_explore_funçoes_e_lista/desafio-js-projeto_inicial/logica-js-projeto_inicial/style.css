@@ -7,7 +7,7 @@
 
 body {
     background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,11 +16,11 @@ body {
 
 body::before {
     background-image: url("img/code.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: right;
     content: "";
     display: block;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     opacity: 0.4;
@@ -28,7 +28,7 @@ body::before {
 
 .container {
     width: 1200px;
-    height: 600px;
+    height: 1000px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,6 +68,8 @@ body::before {
 
 .container__texto {
     margin: 16px 0 16px 0;
+    /* padding-right: 15px; */
+    padding-top: 200px;
 }
 
 .container__texto-azul {
