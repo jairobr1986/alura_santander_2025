@@ -54,13 +54,31 @@
 //     let perimetro = 2 * (a + l);
 //     return `A área enre ${a} e ${l}, é ${area}\nE o perimetro entre ${a} e ${l}, é ${perimetro}.`;
 // }
-// alert(medidas(10,5))
+// alert(medidas(10,5));
 
 // Crie uma função que mostre na tela a área e o perímetro de uma sala circular, utilizando seu raio que será fornecido como parâmetro. Considere Pi = 3,14.
 // • Fórmula: Area = z X raio .
 // • Fórmula: Perímetro = 2 X z X raio.
 
+// function perimetroCircular(z) {
+//     let area = z * 3.14;
+//     let perimentro2 = 2 * z * 3.14;
+//     return `A aréa é ${area.toFixed(2)}, \nE o perimetro é ${perimentro2.toFixed(2)}.`;
+// }
+// alert(perimetroCircular(7));
 
 
 // Crie uma função que mostre na tela a tabuada de um número dado como parâmetro.
 
+
+console.log(tabuada(5));
+
+function tabuada(tab) {
+    let resultado = `A Tabuada do ${tab}:\n`;
+    for (let c = 1; c <= 10; c++) {
+        resultado += (`${tab} x ${c} = ${c * tab}\n`);
+    }
+    return resultado;
+}
+
+console.log(tabuada(5));
