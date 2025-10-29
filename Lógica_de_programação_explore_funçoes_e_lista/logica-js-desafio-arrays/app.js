@@ -13,7 +13,7 @@ linguagensDeProgramacao.push('Java', 'Ruby','GoLang');
 
 // 4. Crie uma lista com 3 nomes e exiba no console apenas o primeiro elemento.
 
-let listaNomes = ['Jairo', 'Cristão', 'Programador'];
+// let listaNomes = ['Jairo', 'Cristão', 'Programador'];
 console.log(listaNomes.length[0]);
 
 // 5. Crie uma lista com 3 nomes e exiba no console apenas o segundo elemento.
@@ -23,5 +23,5 @@ console.log(listaNomes[1]);
 
 // 6. Crie uma lista com 3 nomes e exiba no console apenas o último elemento.
 
-// let listaNomes = ['Jairo', 'Cristão', 'Programador'];
+let listaNomes = ['Jairo', 'Cristão', 'Programador'];
 console.log(listaNomes[listaNomes.length -1]);
